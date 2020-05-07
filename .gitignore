@@ -1,7 +1,10 @@
+# python stuff
+__pycache__
+
+# vscode stuff
+.vscode/
+
+# django stuff
 .venv/*
 !.venv/requirements.txt
-__pycache__
 migrations
-.vscode/
-*.bat
-!runserver.bat

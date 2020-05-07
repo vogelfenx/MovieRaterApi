@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -74,12 +77,22 @@ WSGI_APPLICATION = 'configuration.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default':
+        {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'movieRaterApi_dev',
+            'USER': 'root',
+            'PASSWORD': 'root',
+            'HOST': 'localhost',
+        }
 }
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': {
+        'rest_framework.permissions.IsAuthenticated',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
