@@ -1,3 +1,3 @@
 call .venv\Scripts\activate
-app-api\manage.py runserver
+app\backend-app\manage.py runserver
 cmd /K
