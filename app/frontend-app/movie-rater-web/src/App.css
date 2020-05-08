@@ -18,3 +18,16 @@
 .orange {
   color: orange;
 }
+
+.purple {
+  color: purple;
+}
+
+.rate-container {
+  border-top: 2px solid purple;
+}
+
+.rate-container span.fa{
+  font-size: 2em;
+  cursor: pointer;
+}
