@@ -47,6 +47,7 @@
 .movieList__edit-update span {
   margin: 0.2em;
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 

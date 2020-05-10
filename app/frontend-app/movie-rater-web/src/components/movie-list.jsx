@@ -7,6 +7,11 @@ function MovieList(props) {
         props.movieClicked(movie);
     }
 
+    const removeClicked = movie => evt => {
+        alert("this film will be deleted");
+        //props.removeClicked(movie);
+    }
+
     return(
         <div>
             { props.movies.map( movie => {
@@ -17,7 +22,7 @@ function MovieList(props) {
                         </h3>
                         <div className="movieList__edit-update">
                             <FontAwesome name="edit" className="movieList__update" />
-                            <FontAwesome name="trash" className="movieList__trash" />
+                            <FontAwesome name="trash" className="movieList__trash" onClick={removeClicked(movie)} />
                         </div>
                     </div>
                 )
