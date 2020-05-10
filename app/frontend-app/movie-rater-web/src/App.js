@@ -25,13 +25,19 @@ class App extends Component {
     this.setState({selectedMovie: movie})
   }
 
+  movieDeleted = selMovie => {
+    const movies = this.state.movies.filter( movie => movie.id !== selMovie.id)
+    this.setState({movies: movies, selectedMovie: null})
+  }
+
   render() {
     return (
       <div className="App">
         <h1>Movie Rater</h1>
 
         <div className="layout">
-          <MovieList movies={this.state.movies} movieClicked={this.loadMovie}/>
+          <MovieList movies={this.state.movies} movieClicked={this.loadMovie}
+          movieDeleted={this.movieDeleted}/>
           <MovieDetails movie={this.state.selectedMovie} updateMovie={this.loadMovie}/>
         </div>
 

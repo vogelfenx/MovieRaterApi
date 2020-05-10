@@ -8,8 +8,16 @@ function MovieList(props) {
     }
 
     const removeClicked = movie => evt => {
-        alert("this film will be deleted");
-        //props.removeClicked(movie);
+
+        // props.movieDeleted(movie) //use it for DEBUG and comment out the fetch
+
+        fetch(`${process.env.REACT_APP_MOVIE_API_URL}/api/movies/${movie.id}`, {
+            method: 'DELETE',
+            headers: {
+              'Authorization': 'Token 691aff3fe3c45bb695a91b5f26b52948cf545a60'
+            }
+          }).then( resp => props.movieDeleted(movie))
+          .catch( error => console.log(error))
     }
 
     return(
