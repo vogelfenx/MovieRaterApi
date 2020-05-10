@@ -31,3 +31,29 @@
   font-size: 2em;
   cursor: pointer;
 }
+
+.movieList {
+  display: flex;
+  align-items: center;
+}
+
+.movieList__edit-update {
+  margin-left: 0.5em;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.movieList__edit-update span {
+  margin: 0.2em;
+  font-size: 0.8em;
+}
+
+
+.movieList__update {
+  color: #bd8928;
+}
+
+.movieList__trash {
+  color: rgba(225, 139, 139, 0.57);
+}
