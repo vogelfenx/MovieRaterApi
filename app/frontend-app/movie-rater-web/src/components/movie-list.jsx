@@ -7,6 +7,14 @@ function MovieList(props) {
         props.movieClicked(movie);
     }
 
+    const editClicked = movie => evt => {
+        props.editClicked(movie);
+    }
+
+    const addMovie = () => evt => {
+        props.addMovie();
+    }
+
     const removeClicked = movie => evt => {
 
         // props.movieDeleted(movie) //use it for DEBUG and comment out the fetch
@@ -14,7 +22,7 @@ function MovieList(props) {
         fetch(`${process.env.REACT_APP_MOVIE_API_URL}/api/movies/${movie.id}`, {
             method: 'DELETE',
             headers: {
-              'Authorization': 'Token 691aff3fe3c45bb695a91b5f26b52948cf545a60'
+                'Authorization': `Token ${props.token}`,
             }
           }).then( resp => props.movieDeleted(movie))
           .catch( error => console.log(error))
@@ -24,17 +32,18 @@ function MovieList(props) {
         <div>
             { props.movies.map( movie => {
                 return (
-                    <div className="movieList">
-                        <h3 key={movie.id} onClick={movieClicked(movie)}>
+                    <div className="movieList" key={movie.id}>
+                        <h2 onClick={movieClicked(movie)}>
                             {movie.title}
-                        </h3>
+                        </h2>
                         <div className="movieList__edit-update">
-                            <FontAwesome name="edit" className="movieList__update" />
+                            <FontAwesome name="edit" className="movieList__update" onClick={editClicked(movie)} />
                             <FontAwesome name="trash" className="movieList__trash" onClick={removeClicked(movie)} />
                         </div>
                     </div>
                 )
             })}
+            Add new movie <FontAwesome name="plus-square" className="movieList__add" onClick={addMovie()} />
         </div>
     )
 }
