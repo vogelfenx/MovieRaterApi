@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MovieRaterApi/static/css/main.69eda509.chunk.css",
-    "main.js": "/MovieRaterApi/static/js/main.829668cc.chunk.js",
-    "main.js.map": "/MovieRaterApi/static/js/main.829668cc.chunk.js.map",
+    "main.css": "/MovieRaterApi/static/css/main.f60efade.chunk.css",
+    "main.js": "/MovieRaterApi/static/js/main.69d7ddf3.chunk.js",
+    "main.js.map": "/MovieRaterApi/static/js/main.69d7ddf3.chunk.js.map",
     "runtime-main.js": "/MovieRaterApi/static/js/runtime-main.77ad4e4d.js",
     "runtime-main.js.map": "/MovieRaterApi/static/js/runtime-main.77ad4e4d.js.map",
-    "static/js/2.9d04a379.chunk.js": "/MovieRaterApi/static/js/2.9d04a379.chunk.js",
-    "static/js/2.9d04a379.chunk.js.map": "/MovieRaterApi/static/js/2.9d04a379.chunk.js.map",
+    "static/js/2.8a3e28a3.chunk.js": "/MovieRaterApi/static/js/2.8a3e28a3.chunk.js",
+    "static/js/2.8a3e28a3.chunk.js.map": "/MovieRaterApi/static/js/2.8a3e28a3.chunk.js.map",
     "index.html": "/MovieRaterApi/index.html",
-    "precache-manifest.9be555b02e05c0c8b18427c66f8a6ac9.js": "/MovieRaterApi/precache-manifest.9be555b02e05c0c8b18427c66f8a6ac9.js",
+    "precache-manifest.35d12c679385988daa654d8206090985.js": "/MovieRaterApi/precache-manifest.35d12c679385988daa654d8206090985.js",
     "service-worker.js": "/MovieRaterApi/service-worker.js",
-    "static/css/main.69eda509.chunk.css.map": "/MovieRaterApi/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.9d04a379.chunk.js.LICENSE.txt": "/MovieRaterApi/static/js/2.9d04a379.chunk.js.LICENSE.txt"
+    "static/css/main.f60efade.chunk.css.map": "/MovieRaterApi/static/css/main.f60efade.chunk.css.map",
+    "static/js/2.8a3e28a3.chunk.js.LICENSE.txt": "/MovieRaterApi/static/js/2.8a3e28a3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77ad4e4d.js",
-    "static/js/2.9d04a379.chunk.js",
-    "static/css/main.69eda509.chunk.css",
-    "static/js/main.829668cc.chunk.js"
+    "static/js/2.8a3e28a3.chunk.js",
+    "static/css/main.f60efade.chunk.css",
+    "static/js/main.69d7ddf3.chunk.js"
   ]
 }
