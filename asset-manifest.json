@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/css/main.f60efade.chunk.css",
+    "main.js": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/main.72715d20.chunk.js",
+    "main.js.map": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/main.72715d20.chunk.js.map",
+    "runtime-main.js": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/runtime-main.3f4128d7.js",
+    "runtime-main.js.map": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/runtime-main.3f4128d7.js.map",
+    "static/js/2.8a3e28a3.chunk.js": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/2.8a3e28a3.chunk.js",
+    "static/js/2.8a3e28a3.chunk.js.map": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/2.8a3e28a3.chunk.js.map",
+    "index.html": "/MovieRaterApi/app/frontend-app/movie-rater-web/index.html",
+    "precache-manifest.5263f452121452017546e9edc5815873.js": "/MovieRaterApi/app/frontend-app/movie-rater-web/precache-manifest.5263f452121452017546e9edc5815873.js",
+    "service-worker.js": "/MovieRaterApi/app/frontend-app/movie-rater-web/service-worker.js",
+    "static/css/main.f60efade.chunk.css.map": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/css/main.f60efade.chunk.css.map",
+    "static/js/2.8a3e28a3.chunk.js.LICENSE.txt": "/MovieRaterApi/app/frontend-app/movie-rater-web/static/js/2.8a3e28a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f4128d7.js",
+    "static/js/2.8a3e28a3.chunk.js",
+    "static/css/main.f60efade.chunk.css",
+    "static/js/main.72715d20.chunk.js"
+  ]
+}
