@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8603ce32311a237e0c541698bc2ccece",
+    "revision": "7596e5461b2a34a8bda909de0a780da7",
     "url": "/MovieRaterApi/index.html"
   },
   {
-    "revision": "02b875bf9fffca79cf8c",
+    "revision": "e760535b0cd06386727a",
     "url": "/MovieRaterApi/static/css/main.f60efade.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MovieRaterApi/static/js/2.e37180d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02b875bf9fffca79cf8c",
-    "url": "/MovieRaterApi/static/js/main.66fe6c47.chunk.js"
+    "revision": "e760535b0cd06386727a",
+    "url": "/MovieRaterApi/static/js/main.1c5db09f.chunk.js"
   },
   {
     "revision": "a10609d2a98a68710e34",
