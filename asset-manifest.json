@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/MovieRaterApi/static/css/main.f60efade.chunk.css",
-    "main.js": "/MovieRaterApi/static/js/main.a0596c71.chunk.js",
-    "main.js.map": "/MovieRaterApi/static/js/main.a0596c71.chunk.js.map",
+    "main.js": "/MovieRaterApi/static/js/main.b7158010.chunk.js",
+    "main.js.map": "/MovieRaterApi/static/js/main.b7158010.chunk.js.map",
     "runtime-main.js": "/MovieRaterApi/static/js/runtime-main.77ad4e4d.js",
     "runtime-main.js.map": "/MovieRaterApi/static/js/runtime-main.77ad4e4d.js.map",
-    "static/js/2.2d23ae6a.chunk.js": "/MovieRaterApi/static/js/2.2d23ae6a.chunk.js",
-    "static/js/2.2d23ae6a.chunk.js.map": "/MovieRaterApi/static/js/2.2d23ae6a.chunk.js.map",
+    "static/js/2.e37180d4.chunk.js": "/MovieRaterApi/static/js/2.e37180d4.chunk.js",
+    "static/js/2.e37180d4.chunk.js.map": "/MovieRaterApi/static/js/2.e37180d4.chunk.js.map",
     "index.html": "/MovieRaterApi/index.html",
-    "precache-manifest.e5ced776930bd5169b8daf879421943b.js": "/MovieRaterApi/precache-manifest.e5ced776930bd5169b8daf879421943b.js",
+    "precache-manifest.a0eda65e03a45a7c964c76982fd60ca4.js": "/MovieRaterApi/precache-manifest.a0eda65e03a45a7c964c76982fd60ca4.js",
     "service-worker.js": "/MovieRaterApi/service-worker.js",
     "static/css/main.f60efade.chunk.css.map": "/MovieRaterApi/static/css/main.f60efade.chunk.css.map",
-    "static/js/2.2d23ae6a.chunk.js.LICENSE.txt": "/MovieRaterApi/static/js/2.2d23ae6a.chunk.js.LICENSE.txt"
+    "static/js/2.e37180d4.chunk.js.LICENSE.txt": "/MovieRaterApi/static/js/2.e37180d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77ad4e4d.js",
-    "static/js/2.2d23ae6a.chunk.js",
+    "static/js/2.e37180d4.chunk.js",
     "static/css/main.f60efade.chunk.css",
-    "static/js/main.a0596c71.chunk.js"
+    "static/js/main.b7158010.chunk.js"
   ]
 }
