@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc182eba4c7ff97047d5f6e16d9aa56c",
+    "revision": "e173878930f7cb96f4e3a811ebaf3cbc",
     "url": "/MovieRaterApi/index.html"
   },
   {
