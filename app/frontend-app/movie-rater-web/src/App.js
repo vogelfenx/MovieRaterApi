@@ -26,7 +26,7 @@ class App extends Component {
       .then( res => this.setState({movies: res}))
       .catch( error => console.log(error))
     } else {
-      window.location.href = "/";
+      window.location.href = "#/";
     }
     
   }

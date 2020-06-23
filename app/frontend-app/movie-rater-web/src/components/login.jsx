@@ -28,7 +28,7 @@ class Login extends Component {
             .then( res => {
                 this.props.cookies.set('mr-token', res.token)
                 if (res.token) { 
-                    window.location.href = "/movies" 
+                    window.location.href = "#/movies" 
                 }
             })
             .catch( error => console.log(error))     
