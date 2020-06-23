@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MovieRaterApi/precache-manifest.9de9f26e6b6312ca795cd22565732024.js"
+  "/MovieRaterApi/precache-manifest.a28c7bb1a53e2f3ee199d7c9169ab7a1.js"
 );
 
 self.addEventListener('message', (event) => {
