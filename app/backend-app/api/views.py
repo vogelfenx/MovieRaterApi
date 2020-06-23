@@ -14,6 +14,15 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
     permission_classes = (AllowAny, )
 
+    def list(self, request, *args, **kwargs):
+        response = {'message': 'You cant retrieve user'}
+        return Response(response, status=status.HTTP_400_BAD_REQUEST)
+
+    def retrieve(self, request, *args, **kwargs):
+        response = {'message': 'You cant retrieve user'}
+        return Response(response, status=status.HTTP_400_BAD_REQUEST)
+
+
 
 class MovieViewSet(viewsets.ModelViewSet):
     queryset = Movie.objects.all()
