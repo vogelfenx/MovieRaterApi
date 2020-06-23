@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MovieRaterApi/static/css/main.f60efade.chunk.css",
-    "main.js": "/MovieRaterApi/static/js/main.44f8a731.chunk.js",
-    "main.js.map": "/MovieRaterApi/static/js/main.44f8a731.chunk.js.map",
-    "runtime-main.js": "/MovieRaterApi/static/js/runtime-main.77ad4e4d.js",
-    "runtime-main.js.map": "/MovieRaterApi/static/js/runtime-main.77ad4e4d.js.map",
-    "static/js/2.8a3e28a3.chunk.js": "/MovieRaterApi/static/js/2.8a3e28a3.chunk.js",
-    "static/js/2.8a3e28a3.chunk.js.map": "/MovieRaterApi/static/js/2.8a3e28a3.chunk.js.map",
-    "index.html": "/MovieRaterApi/index.html",
-    "precache-manifest.64270019f1a6685fb1261ad89f1cf1a7.js": "/MovieRaterApi/precache-manifest.64270019f1a6685fb1261ad89f1cf1a7.js",
-    "service-worker.js": "/MovieRaterApi/service-worker.js",
-    "static/css/main.f60efade.chunk.css.map": "/MovieRaterApi/static/css/main.f60efade.chunk.css.map",
-    "static/js/2.8a3e28a3.chunk.js.LICENSE.txt": "/MovieRaterApi/static/js/2.8a3e28a3.chunk.js.LICENSE.txt"
+    "main.css": "https://vogelfenx.github.io/MovieRaterApi/static/css/main.f60efade.chunk.css",
+    "main.js": "https://vogelfenx.github.io/MovieRaterApi/static/js/main.97774cf7.chunk.js",
+    "main.js.map": "https://vogelfenx.github.io/MovieRaterApi/static/js/main.97774cf7.chunk.js.map",
+    "runtime-main.js": "https://vogelfenx.github.io/MovieRaterApi/static/js/runtime-main.1a0def13.js",
+    "runtime-main.js.map": "https://vogelfenx.github.io/MovieRaterApi/static/js/runtime-main.1a0def13.js.map",
+    "static/js/2.8a3e28a3.chunk.js": "https://vogelfenx.github.io/MovieRaterApi/static/js/2.8a3e28a3.chunk.js",
+    "static/js/2.8a3e28a3.chunk.js.map": "https://vogelfenx.github.io/MovieRaterApi/static/js/2.8a3e28a3.chunk.js.map",
+    "index.html": "https://vogelfenx.github.io/MovieRaterApi/index.html",
+    "precache-manifest.65c12ab7a6aaaccb727b6131633f2723.js": "https://vogelfenx.github.io/MovieRaterApi/precache-manifest.65c12ab7a6aaaccb727b6131633f2723.js",
+    "service-worker.js": "https://vogelfenx.github.io/MovieRaterApi/service-worker.js",
+    "static/css/main.f60efade.chunk.css.map": "https://vogelfenx.github.io/MovieRaterApi/static/css/main.f60efade.chunk.css.map",
+    "static/js/2.8a3e28a3.chunk.js.LICENSE.txt": "https://vogelfenx.github.io/MovieRaterApi/static/js/2.8a3e28a3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.77ad4e4d.js",
+    "static/js/runtime-main.1a0def13.js",
     "static/js/2.8a3e28a3.chunk.js",
     "static/css/main.f60efade.chunk.css",
-    "static/js/main.44f8a731.chunk.js"
+    "static/js/main.97774cf7.chunk.js"
   ]
 }
