@@ -2,11 +2,27 @@ from django.contrib.auth.models import User
 from rest_framework import status, viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import action
-from rest_framework.permissions import IsAuthenticated, AllowAny
+from rest_framework.permissions import IsAuthenticated, AllowAny, SAFE_METHODS, BasePermission
 from rest_framework.response import Response
 
 from .models import Movie, Rating
 from .serializers import MovieSerializer, RatingSerializer, UserSerializer
+
+
+class IsOwnerOrReadOnly(BasePermission):
+    """
+    Object-level permission to only allow owners of an object to edit it.
+    Assumes the model instance has an `owner` attribute.
+    """
+
+    def has_object_permission(self, request, view, obj):
+        # Read permissions are allowed to any request,
+        # so we'll always allow GET, HEAD or OPTIONS requests.
+        if request.method in SAFE_METHODS:
+            return True
+
+        # Instance must have an attribute named `owner`.
+        return obj.added_by_user == request.user
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -23,12 +39,11 @@ class UserViewSet(viewsets.ModelViewSet):
         return Response(response, status=status.HTTP_400_BAD_REQUEST)
 
 
-
 class MovieViewSet(viewsets.ModelViewSet):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
     authentication_classes = (TokenAuthentication, )
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (IsAuthenticated, IsOwnerOrReadOnly)
 
     @action(detail=True, methods=['POST'])
     def rate_movie(self, request, pk=None):
@@ -56,6 +71,12 @@ class MovieViewSet(viewsets.ModelViewSet):
         else:
             response = {'message': 'You need to provide stars'}
             return Response(response, status=status.HTTP_400_BAD_REQUEST)
+
+    def perform_create(self, serializer):
+        serializer.save(added_by_user=self.request.user)
+
+    def perform_update(self, serializer):
+        serializer.save(added_by_user=self.request.user)
 
 
 class RatingViewSet(viewsets.ModelViewSet):

@@ -7,6 +7,7 @@ from django.utils.translation import gettext as _
 class Movie(models.Model):
     title = models.CharField(_("Movie"), max_length=32)
     description = models.TextField(_("Description"), max_length=360)
+    added_by_user = models.ForeignKey(auth_User, on_delete=models.CASCADE)
 
     def no_of_ratings(self):
         ratings = Rating.objects.filter(movie=self)
